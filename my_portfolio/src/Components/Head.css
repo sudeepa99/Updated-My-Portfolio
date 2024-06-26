@@ -1,5 +1,31 @@
 .head{
-    position: absolute;
+    
     margin-top: 15%;
-    left: 15%;
+    margin-left: 10%;
+}
+.welcome_banner{
+    color: #EAB308;
+    font-size: 18px;
+}
+.intro{
+    color: #F3F4F6;
+    font-size: 40px;
+    font-weight: 700;
+}
+.img{
+    position: absolute;
+    right: 5%;
+    width: 25%;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+
+    
+}
+
+.hero_sec{
+    display: flex;
+    flex-direction: row;
 }
