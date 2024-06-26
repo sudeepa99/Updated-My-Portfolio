@@ -3,7 +3,7 @@ import "./Head.css";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import ProfileImage from "../Images/2023_09_23_12_58_IMG_5343.JPG";
+import ProfileImage from "../Images/profile-img.png";
 
 export default function Head() {
   return (
