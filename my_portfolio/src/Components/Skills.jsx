@@ -15,6 +15,8 @@ import Spring_logo from '../Icons/Spring.png';
 import NodeJS_logo from '../Icons/Node.js.png';
 import MySQL_logo from '../Icons/MySQL.png';
 import MongoDB_logo from '../Icons/MongoDB.png';
+import Clang_logo from '../Icons/C.png';
+import JavaLang_logo from '../Icons/Java.png';
 import { Image } from 'react-bootstrap';
 
 
@@ -27,14 +29,86 @@ export default function Skills() {
         <h1 id='skill_topic'>Skills</h1>
         <p id="skill_des">I have a vast experience in the following technologies and languages.</p>
       </div>
-      <div className='techs'>
+      <div className="techs">
+        {/* HTML icon */}
+      <div className='techitem'>
         <Image src={HTML_logo} alt='HTML' className='tech_icons'/>
+        <p>HTML</p>
+      </div>
+      {/* Css Icon */}
+      <div className='techitem'>
+        <Image src={CSS_logo} alt='CSS' className='tech_icons'/>
+        <p>CSS</p>
+      </div>
+      {/* TailwindCSS Icon*/}
+      <div className='techitem'>
+        <Image src={TailwindCSS_logo} alt='TailwindCSS' className='tech_icons'/>
+        <p>Tailwind CSS</p>
+      </div>
+      {/* Js icon */}
+      <div className='techitem'>
+        <Image src={JS_logo} alt='JS' className='tech_icons'/>
+        <p>JavaScript</p>
+      </div>
+      {/* ReactJS icon */}
+      <div className='techitem'>
+        <Image src={ReactJS_logo} alt='ReactJS' className='tech_icons'/>
+        <p>ReactJS</p>
+      </div>
+      {/* React Bootstrap icon */}
+      <div className='techitem'>
+        <Image src={ReactBoot_logo} alt='ReactBootstrap' className='tech_icons'/>
+        <p>React Bootstrap</p>
+      </div>
+      {/* Dart icon */}
+      <div className='techitem'>
+        <Image src={Dart_logo} alt='Dart' className='tech_icons'/>
+        <p>Dart</p>
+      </div>
+      {/* Flutter icon */}
+      <div className='techitem'>
+        <Image src={Flutter_logo} alt='Flutter' className='tech_icons'/>
+        <p>Flutter</p>
+      </div>
+      {/* Spring icon */}
+      <div className='techitem'>
+        <Image src={Spring_logo} alt='Springboot' className='tech_icons'/>
+        <p>Spring</p>
+      </div>
+      {/* Nodejs icon */}
+      <div className='techitem'>
+        <Image src={NodeJS_logo} alt='NodeJS' className='tech_icons'/>
+        <p>NodeJS</p>
+      </div>
+      {/* MySQL */}
+      <div className='techitem'>
+        <Image src={MySQL_logo} alt='MySQL' className='tech_icons'/>
+        <p>MySQL</p>
+      </div>
+      {/* MongoDB */}
+      <div className='techitem'>
+        <Image src={MongoDB_logo} alt='MongoDB' className='tech_icons'/>
+        <p>MongoDB</p>
+      </div>
+      {/* C language */}
+      <div className='techitem'>
+        <Image src={Clang_logo} alt='C Language' className='tech_icons'/>
+        <p>C Language</p>
+      </div>
+      {/* Java Language */}
+      <div className='techitem'>
+        <Image src={JavaLang_logo} alt='Java Language' className='tech_icons'/>
+        <p>Java Language</p>
+      </div>
+
 
       
 
 
 
+
       </div>
+      
     </div>
   )
 }
