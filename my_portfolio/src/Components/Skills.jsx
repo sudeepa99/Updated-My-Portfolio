@@ -1,13 +1,38 @@
-import React from 'react'
+import React from 'react';
+import "./Skills.css";
+import { FaBootstrap, FaReact } from 'react-icons/fa';
+import { SiFlutter, SiDart, SiTailwindcss, SiC, SiJavascript } from 'react-icons/si';
+import { DiCss3 } from 'react-icons/di';
+import HTML_logo from '../Icons/HTML5.png';
+import CSS_logo from '../Icons/CSS3.png';
+import TailwindCSS_logo from '../Icons/Tailwind CSS.png';
+import JS_logo from '../Icons/JavaScript.png';
+import ReactJS_logo from '../Icons/React.png';
+import ReactBoot_logo from '../Icons/React Bootstrap.png';
+import Dart_logo from '../Icons/Dart.png';
+import Flutter_logo from '../Icons/Flutter.png';
+import Spring_logo from '../Icons/Spring.png';
+import NodeJS_logo from '../Icons/Node.js.png';
+import MySQL_logo from '../Icons/MySQL.png';
+import MongoDB_logo from '../Icons/MongoDB.png';
+import { Image } from 'react-bootstrap';
+
+
+
 
 export default function Skills() {
   return (
     <div className='skills'>
       <div className='skill_details'>
-        <h1>Skills</h1>
-        <p>I have a vast experience in the following technologies and languages.</p>
+        <h1 id='skill_topic'>Skills</h1>
+        <p id="skill_des">I have a vast experience in the following technologies and languages.</p>
       </div>
       <div className='techs'>
+        <Image src={HTML_logo} alt='HTML' className='tech_icons'/>
+
+      
+
+
 
       </div>
     </div>
