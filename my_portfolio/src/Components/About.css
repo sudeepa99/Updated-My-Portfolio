@@ -1,7 +1,16 @@
-.about-sec{
+.About_section{
+    display: flex;
+    flex-direction: row;
     background-color: #020617;
     margin-top: 25%;
     padding-top: 5%;
+    height: 70%;
+    width: 100%;
+}
+.about-sec{
+    margin-right: 3%;
+   
+    
 }
 
 #first{
@@ -13,4 +22,20 @@
 }
 #third{
     color: #6B7280;
+}
+.cover_img{
+    background-color: #6B7280;
+    /* padding: 2%;
+    width: 170%;
+    height: 150%;
+    margin-left: 5%;
+    margin-right: 3%;
+    border-radius: 10%; */
+    width: 100%; /* Adjust the width to be more responsive */
+    height: 100%; /* Adjust the height to maintain the aspect ratio */
+    margin-left: 5%;
+    margin-right: 0; /* Remove or reduce the right margin */
+    border-radius: 10%;
+    box-sizing: border-box;
+
 }
