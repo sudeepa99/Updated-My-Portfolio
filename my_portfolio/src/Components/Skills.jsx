@@ -60,11 +60,6 @@ export default function Skills() {
         <Image src={ReactBoot_logo} alt='ReactBootstrap' className='tech_icons'/>
         <p>React Bootstrap</p>
       </div>
-      {/* Dart icon */}
-      <div className='techitem'>
-        <Image src={Dart_logo} alt='Dart' className='tech_icons'/>
-        <p>Dart</p>
-      </div>
       {/* Flutter icon */}
       <div className='techitem'>
         <Image src={Flutter_logo} alt='Flutter' className='tech_icons'/>
@@ -99,6 +94,11 @@ export default function Skills() {
       <div className='techitem'>
         <Image src={JavaLang_logo} alt='Java Language' className='tech_icons'/>
         <p>Java Language</p>
+      </div>
+      {/* Dart icon */}
+      <div className='techitem'>
+        <Image src={Dart_logo} alt='Dart' className='tech_icons'/>
+        <p>Dart Language</p>
       </div>
 
 
