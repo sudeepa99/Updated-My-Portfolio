@@ -4,6 +4,7 @@ import Navigationbar from '../Components/Navigationbar';
 import Head from '../Components/Head';
 import { AbortedDeferredError } from 'react-router-dom';
 import About from '../Components/About';
+import Skills from '../Components/Skills';
 
 export default function Homepage() {
   return (
@@ -11,6 +12,7 @@ export default function Homepage() {
         <Navigationbar/>
         <Head/>
         <About/>
+        <Skills/>
       
     </div>
   )
