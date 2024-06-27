@@ -1,0 +1,16 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+#skill_topic{
+    color: #EAB308;
+}
+#skill_des{
+    color: #6B7280;
+}
+.tech_icons{
+    width: 50px;
+    height: 50px;
+}
