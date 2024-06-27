@@ -17,7 +17,10 @@ import MySQL_logo from '../Icons/MySQL.png';
 import MongoDB_logo from '../Icons/MongoDB.png';
 import Clang_logo from '../Icons/C.png';
 import JavaLang_logo from '../Icons/Java.png';
+import Skill_img from '../Images/skill_image-Photoroom.png';
+
 import { Image } from 'react-bootstrap';
+
 
 
 
@@ -25,6 +28,7 @@ import { Image } from 'react-bootstrap';
 export default function Skills() {
   return (
     <div className='skills'>
+      <div className="technology_section">
       <div className='skill_details'>
         <h1 id='skill_topic'>Skills</h1>
         <p id="skill_des">I have a vast experience in the following technologies and languages.</p>
@@ -100,12 +104,13 @@ export default function Skills() {
         <Image src={Dart_logo} alt='Dart' className='tech_icons'/>
         <p>Dart Language</p>
       </div>
+      </div>
 
-
+      </div>
       
 
-
-
+      <div className="skill_image">
+        <Image src={Skill_img} alt='Image' className='skills_img'/>
 
       </div>
       

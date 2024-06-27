@@ -1,6 +1,6 @@
 .skills{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 5%;
 
 }
@@ -20,7 +20,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 35px;
+    margin-top: 4%;
 }
 .techitem p{
     color: #6B7280;
+}
+.skills_img{
+    width: 500px;
+    height: 500px;
 }
