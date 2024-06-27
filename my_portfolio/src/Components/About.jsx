@@ -9,6 +9,9 @@ export default function About() {
   return (
     <div>
       <div className='About_section'>
+      <div className="color_container">
+        
+      </div>
 
       <div className='cover_img'>
       <Container>
