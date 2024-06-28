@@ -5,6 +5,7 @@ import Head from '../Components/Head';
 import { AbortedDeferredError } from 'react-router-dom';
 import About from '../Components/About';
 import Skills from '../Components/Skills';
+import Portfolio from '../Components/Portfolio';
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
         <Head/>
         <About/>
         <Skills/>
+        <Portfolio/>
       
     </div>
   )

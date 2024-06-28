@@ -23,7 +23,7 @@ export default function About() {
       </div>
 
       <div className="about-sec">
-        <h1 id='first'>About <span id='second'>Us</span></h1>
+        <h1 id='first'>About <span id='second'>Me</span></h1>
         <p id='third'>
         I'm an undergraduate at Sabaragamuwa University of Sri Lanka with a passion for software engineering. Enthusiastic about coding and problem-solving, I'm eager to innovate and contribute to the tech world.
         </p>
