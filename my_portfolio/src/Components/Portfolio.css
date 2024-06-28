@@ -5,3 +5,9 @@
 .po_head{
     color: #EAB308;
 }
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
