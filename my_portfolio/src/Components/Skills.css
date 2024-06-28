@@ -25,10 +25,7 @@
 .techitem p{
     color: #6B7280;
 }
-.skills_img{
-    width: 500px;
-    height: 500px;
-}
+
 .techitem {
     text-align: center;
     margin: 20px;
@@ -38,3 +35,16 @@
 .techitem:hover {
     transform: scale(1.1); 
 }
+
+.skills_img {
+    width: 500px;
+    height: 450px;
+    max-width: 450px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .skills_img:hover {
+    opacity: 0.4;
+  }
+  
