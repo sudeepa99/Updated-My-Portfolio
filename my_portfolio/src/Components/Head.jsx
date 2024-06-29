@@ -25,6 +25,7 @@ export default function Head() {
       </Container>
           
       </div>
+      <div className="color_container2"></div>
 
       </div>
       
