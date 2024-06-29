@@ -7,7 +7,7 @@ import CoverIamge from "../Images/Cover_image.png";
 
 export default function About() {
   return (
-    <div>
+    <div id='about'>
       <div className='About_section'>
       <div className="color_container">
         

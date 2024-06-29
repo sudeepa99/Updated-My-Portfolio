@@ -6,7 +6,7 @@ import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 
 export default function Contact() {
   return (
-    <div className='contact_sec'>
+    <div className='contact_sec' id='contact'>
       <div className='contact_container'>
       
       <div className='column1'>
