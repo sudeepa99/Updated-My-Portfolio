@@ -8,7 +8,7 @@ export default function FormDesign() {
     <div>
     <Form 
     style={{
-        width:"50%",
+        width:"100%",
         marginTop:"3%",
         }}>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
