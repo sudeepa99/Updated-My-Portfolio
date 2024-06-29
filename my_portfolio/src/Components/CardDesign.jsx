@@ -1,12 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import "./Portfolio.css";
 
 
 
 export default function CardDesign(props) {
   return (
-    <div style={{marginTop: "4%"}}>
+    <div className="card_animate" style={{marginTop: "4%", }}>
         <Card style={{ width: '24rem', height:'20rem', backgroundColor:'#111827' }}>
         <Card.Img style={{width:'24rem'  }} variant="top" src={props.Image_name}  />
         <Card.Body style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
