@@ -6,6 +6,7 @@ import { AbortedDeferredError } from 'react-router-dom';
 import About from '../Components/About';
 import Skills from '../Components/Skills';
 import Portfolio from '../Components/Portfolio';
+import Contact from '../Components/Contact';
 
 export default function Homepage() {
   return (
@@ -15,6 +16,7 @@ export default function Homepage() {
         <About/>
         <Skills/>
         <Portfolio/>
+        <Contact/>
       
     </div>
   )
