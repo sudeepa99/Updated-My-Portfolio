@@ -30,7 +30,7 @@ export default function Skills() {
     <div className='skills'>
       <div className="technology_section">
       <div className='skill_details'>
-        <h1 id='skill_topic'>Skills</h1>
+        <h1 id='skill_topic'><span id='other'>My</span> Skills</h1>
         <p id="skill_des">I have a vast experience in the following technologies and languages.</p>
       </div>
       <div className="techs">
