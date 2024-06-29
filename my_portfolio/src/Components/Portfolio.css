@@ -10,7 +10,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 70px;
+   
 }
+ 
 #other{
     color: antiquewhite;
+}
+.card_animate{
+    transition: transform 0.3s ease-in-out;transition: transform 0.3s ease-in-out;
+
+}
+.card_animate:hover{
+    transform: scale(1.1); 
+
 }

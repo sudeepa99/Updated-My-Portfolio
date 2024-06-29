@@ -17,12 +17,12 @@ export default function Portfolio() {
         <h1><span id='other'>My</span> Portfolio</h1>
       </div>
       <div className='card_container'>
-        <CardDesign Image_name={StockMngImg} port_title="Stock Management System"/>
-        <CardDesign Image_name={FilmBookImg} port_title="Film Booking Website"/>
-        <CardDesign Image_name={MyPortImg} port_title="My portfolio"/>
-        <CardDesign Image_name={SoluxeImg} port_title="Soluxe E-commerce System"/>
+        <CardDesign  Image_name={StockMngImg} port_title="Stock Management System" />
+        <CardDesign  Image_name={FilmBookImg} port_title="Film Booking Website"/>
+        <CardDesign  Image_name={MyPortImg} port_title="My portfolio"/>
+        <CardDesign  Image_name={SoluxeImg} port_title="Soluxe E-commerce System"/>
 
-        <div style={{
+      <div style={{
       display: 'flex', 
       justifyContent: 'center', 
       alignItems: 'center', 
