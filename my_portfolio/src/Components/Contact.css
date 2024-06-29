@@ -1,11 +1,60 @@
-.contact_sec{
+.contact_sec {
     background-color: #111827;
-    
-}
-.contact_container{
+  }
+  
+  .contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 5%;
-    
-}
-.contact_head{
+  }
+  
+  .contact_head {
     color: #EAB308;
-}
+  }
+  
+  .contact-list2 {
+    margin-left: 20%;
+    
+  }
+  
+  .contact-list2 a {
+    color: antiquewhite;
+  }
+  #para{
+    color: antiquewhite;
+  }
+
+  
+  .contact-list2 li {
+    font-size: large;
+  }
+  #contact_label{
+    color: #EAB308;
+    margin-right: 40px;
+
+  }
+  
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .column2 {
+    flex: 1;
+    margin-top: 5%;
+  }
+  
+  .button-container {
+    margin-left: 22%;
+  }
+  
+  .button-container button {
+    background-color: #6b7280;
+    border-color: #ffff;
+    border-width: 2px;
+    text-align: center;
+    margin-top: 1%;
+  }
+  
