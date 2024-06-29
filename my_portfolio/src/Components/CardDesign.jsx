@@ -17,9 +17,12 @@ export default function CardDesign(props) {
           borderColor:"black", 
           borderWidth:"2px",  
           textAlign: "center",
-          marginTop: "2%" 
+          marginTop: "2%",
           }}
-          variant="primary">More Details
+          variant="primary"
+          href={props.repo_link}
+          
+          >More Details
         </Button>
         </Card.Body>
         </Card>
