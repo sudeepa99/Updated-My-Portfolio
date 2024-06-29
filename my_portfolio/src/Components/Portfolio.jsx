@@ -12,7 +12,7 @@ import { Button } from 'react-bootstrap';
 
 export default function Portfolio() {
   return (
-    <div className='po_section'>
+    <div className='po_section' id='portfolio'>
       <div className='po_head'>
         <h1><span id='other'>My</span> Portfolio</h1>
       </div>

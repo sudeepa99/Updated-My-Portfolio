@@ -7,7 +7,7 @@ import ProfileImage from "../Images/profile-img.png";
 
 export default function Head() {
   return (
-    <div>
+    <div id='home'>
       <div className='hero_sec'>
       <div className='head'>
         <div className='welcome_banner'>

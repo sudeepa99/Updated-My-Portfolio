@@ -27,7 +27,7 @@ import { Image } from 'react-bootstrap';
 
 export default function Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div className="technology_section">
       <div className='skill_details'>
         <h1 id='skill_topic'><span id='other'>My</span> Skills</h1>

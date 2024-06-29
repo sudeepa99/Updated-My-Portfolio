@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./Navigationbar.css";
 import BrandName from "../Images/huge (1).png"
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Head from './Head';
 
 export default function Navigationbar() {
   return (
@@ -14,12 +16,12 @@ export default function Navigationbar() {
         <Container>
           <Image src={BrandName} alt='Brand Name'/>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing">Resume</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link as={Link} to="home" smooth duration={300}>Home</Nav.Link>
+            <Nav.Link as={Link} to="about" smooth duration={300}>About</Nav.Link>
+            <Nav.Link as={Link} to="skills" smooth duration={300}>Skills</Nav.Link>
+            <Nav.Link as={Link} to="portfolio" smooth duration={300}>Portfolio</Nav.Link>
+            <Nav.Link as={Link} to="resume" smooth duration={300}>Resume</Nav.Link>
+            <Nav.Link as={Link} to="contact" smooth duration={300}>Contact</Nav.Link>
 
           </Nav>
         </Container>
