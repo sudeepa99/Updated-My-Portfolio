@@ -17,13 +17,18 @@
 
 #first{
     color: #F3F4F6;
+    margin-left: 15%;
 }
 
 #second{
     color: #EAB308;
+    
 }
 #third{
     color: #6B7280;
+    margin-right: 5%;
+    margin-left: 15%;
+    justify-content: left;
 }
 .cover_img{
     position: absolute;
