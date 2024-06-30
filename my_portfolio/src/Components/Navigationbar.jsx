@@ -20,7 +20,7 @@ export default function Navigationbar() {
             <Nav.Link as={Link} to="about" smooth duration={300}>About</Nav.Link>
             <Nav.Link as={Link} to="skills" smooth duration={300}>Skills</Nav.Link>
             <Nav.Link as={Link} to="portfolio" smooth duration={300}>Portfolio</Nav.Link>
-            <Nav.Link as={Link} to="resume" smooth duration={300}>Resume</Nav.Link>
+            <Nav.Link  href="https://www.canva.com/design/DAGGlv3_nS0/f9ozfXZ7Y84jV8LwOKykFA/view?utm_content=DAGGlv3_nS0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target='blank'>Resume</Nav.Link>
             <Nav.Link as={Link} to="contact" smooth duration={300}>Contact</Nav.Link>
 
           </Nav>
