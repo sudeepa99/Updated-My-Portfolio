@@ -7,6 +7,7 @@ import BrandName from "../Images/huge (1).png"
 import { Image } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import Head from './Head';
+import CvPdf from "../Pdf/K.S.N. Vitharana.pdf"; 
 
 export default function Navigationbar() {
   return (
@@ -20,7 +21,7 @@ export default function Navigationbar() {
             <Nav.Link as={Link} to="about" smooth duration={300}>About</Nav.Link>
             <Nav.Link as={Link} to="skills" smooth duration={300}>Skills</Nav.Link>
             <Nav.Link as={Link} to="portfolio" smooth duration={300}>Portfolio</Nav.Link>
-            <Nav.Link  href="https://www.canva.com/design/DAGGlv3_nS0/f9ozfXZ7Y84jV8LwOKykFA/view?utm_content=DAGGlv3_nS0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target='blank'>Resume</Nav.Link>
+            <Nav.Link  href={CvPdf} target='blank'>Resume</Nav.Link>
             <Nav.Link as={Link} to="contact" smooth duration={300}>Contact</Nav.Link>
 
           </Nav>
