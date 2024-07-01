@@ -33,6 +33,7 @@
 .cover_img{
     position: absolute;
     background-color: #6B7280;
+    overflow: hidden;
     /* padding: 2%;
     width: 170%;
     height: 150%;

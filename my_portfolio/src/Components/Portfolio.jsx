@@ -31,6 +31,7 @@ export default function Portfolio() {
       
       }}>
         <Button 
+        className='custom_button'
         style={{
         backgroundColor:"#6B7280",
         borderColor:"#ffff", 

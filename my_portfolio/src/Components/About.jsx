@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import CoverIamge from "../Images/Cover_image.png";
+import { motion } from 'framer-motion';
+
 
 export default function About() {
   return (
@@ -16,7 +18,16 @@ export default function About() {
       <div className='cover_img'>
       <Container>
       <Col xs={6} md={4}>
-          <Image src={CoverIamge} className='cover_img' rounded/>
+    
+          <motion.img
+           src={CoverIamge}
+           alt="Cover Image"
+           initial={{ x: 0, opacity: 0.9 }}
+           whileHover={{ x: 20, opacity: 0.7 }}
+           transition={{ duration: 0.9, ease: "circOut" }}
+           className='cover_img' rounded/>
+        
+          
         </Col>
       </Container>
 
