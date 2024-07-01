@@ -25,7 +25,7 @@ export default function About() {
       <div className="about-sec">
         <h1 id='first'>About <span id='second'>Me</span></h1>
         <p id='third'>
-        I'm an undergraduate at Sabaragamuwa University of Sri Lanka with a passion for software engineering. Enthusiastic about coding and problem-solving, I'm eager to innovate and contribute to the tech world.
+        I'm an undergraduate at Sabaragamuwa University of Sri Lanka, studying software engineering. I absolutely love coding and solving problems. I get excited about taking on challenges and turning creative ideas into real, working solutions. With a passion for technology and an eye for detail, I'm eager to contribute to the tech world and make a difference. Whether it's building cool new apps or learning the latest programming trends, I'm always looking to grow and improve in this ever-evolving field.
         </p>
 
       </div>
