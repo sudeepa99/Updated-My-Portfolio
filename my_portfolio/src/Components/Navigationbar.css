@@ -17,6 +17,9 @@
 .nav_Bar .nav-link:hover{
     color: #FFFFFF;
 }
+.nav_Bar .nav-link.active {
+    color: #FFFFFF !important; 
+}
 
 
 .nav_Bar .navbar-nav {

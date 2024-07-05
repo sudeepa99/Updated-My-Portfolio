@@ -50,7 +50,7 @@
 }
 .color_container{
     height: 400px;
-    width: 600px;
+    width: 100%;
     background-color: #020617;
     border-color: #EAB308;
     border-width: 14px;
