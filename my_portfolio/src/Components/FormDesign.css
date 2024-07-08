@@ -1,20 +1,20 @@
 
-.mb-3, 
+/* .mb-3, 
 .mb-4{
     background-color: #6B7280;
-}
+} */
 
 .mb-3{
     border-color: #ffff;
     border-width: 2px;
 }
 .mb-4{
-    border-color: #EAB308;
+    border-color: #111827;
     border-width: 2px;
 }
 .form_label{
     color:#ffff;
-    background-color: #6B7280; /* Set the desired background color */
+    background-color: #111827; /* Set the desired background color */
     padding: 0.2rem 0.5rem; /* Optional: Add some padding for better visibility */
     border-radius: 2rem; 
     
